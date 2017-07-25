@@ -2,10 +2,9 @@ import React, {Component} from 'react';
 
 export default class Entrees extends Component {
 
-// Add the appropiate lifecycle method so that the component receives the props before mounting.
-
   render(){
-    let items = this.state.entrees;
+    // Set items' value....
+    let items = '';
     // Since the items do not have a key, let's create one.
     let key = 0;
     let entres = items.map((items)=>{

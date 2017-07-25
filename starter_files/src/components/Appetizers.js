@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 
 export default class Appetizers extends Component {
 
-  // Add the appropriate lifecycle method so that the component receives the props before mounting.
-
   render(){
     // Set items' value....
     let items = '',
