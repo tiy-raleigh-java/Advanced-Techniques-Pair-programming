@@ -15,7 +15,7 @@ class App extends Component {
 // YOUR CODE HERE>
 
   render() {
-    // Your render should consist of the BaseLayout with the following children componenets: Appetizers, Entres, and Dessert.
+    // Your render should consist of the BaseLayout with the following children components: Appetizers, Entrees, and Dessert.
     // Each component needs to receive state via props.
     return (
       {/*
